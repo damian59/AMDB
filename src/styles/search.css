@@ -1,0 +1,127 @@
+/* General styles */
+
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    border-radius: 2px;
+    height: 40px;
+    width: 30%;
+
+  }
+  
+  .input{
+    width: 100%;
+    height:auto;
+  }
+.input:focus {
+  background-color:whitesmoke;
+  border: solid rgb(6, 6, 80);
+}
+
+  .input:hover{
+    border: solid rgba(186, 125, 10, 0.258);
+  }
+  .results{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  
+  /* .search-input {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0 4px 4px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+ .search-results {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .search-results li {
+    margin-bottom: 0.5rem;
+  }*/
+  
+  /* Media queries for responsive design */
+  
+ /* @media only screen and (max-width: 576px) {
+    
+    .search-title {
+      font-size: 1.25rem;
+    }
+  
+    .search-input {
+      font-size: 0.9rem;
+    }
+  
+    .search-button {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+   
+    .container {
+      padding: 0 1rem;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+   
+    .search-content {
+      width: 80%;
+      max-width: 500px;
+    }
+  }
+  
+  @media only screen and (min-width: 993px) {
+  
+    .search-content {
+      width: 60%;
+      max-width: 600px;
+    }
+    .input-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5%;
+      border-radius: 2px;
+      height: 20px;
+      width: 50%;
+    }
+    
+    .input-wrapper :hover{
+      border: #007bff;
+    }
+  }
+  */
