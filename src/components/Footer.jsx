@@ -17,7 +17,7 @@ const Footer = () => {
                 Copyright © {year} - All right reserved.
                 </p>
                 </div>
-                <Link to='https://github.com/damian59/MarvelApp.git' className='item3'>
+                <Link to='https://github.com/damian59/AMDB' className='item3'>
 
                     <FaGithub  />
                 </Link>
@@ -30,7 +30,7 @@ const Footer = () => {
                     <FaLinkedinIn  />
                 </a>
                 <a
-                    href="https://www.youtube.com/watch?v=nxs13L5IOH0"
+                    href="https://www.youtube.com/watch?v=0IdBOdvVK1Y"
                     
                     className="item5"
                 >
