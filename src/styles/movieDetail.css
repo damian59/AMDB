@@ -184,6 +184,7 @@ a{
   
     .movie__name {
       font-size: 2rem;
+
     }
   
     .movie__voteCount {
@@ -193,10 +194,17 @@ a{
   
     .movie__genres {
       margin: 1rem 0;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
     }
   
     .movie__genre {
       margin-right: 0.5rem;
+      margin-top: 0.5rem;
+      
     }
   
     .movie__links {

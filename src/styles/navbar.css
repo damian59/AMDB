@@ -124,6 +124,11 @@
       color: black;
       background-color: rgba(94, 239, 191, 0);
     }
+    .nav-links:hover{
+      color: rgb(204, 129, 44);
+      text-decoration: underline;
+    }
+    
   }
   
 .boton-login{
