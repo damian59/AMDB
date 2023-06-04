@@ -40,7 +40,7 @@ const Search= () => {
               type="text"
               value={query}
               onChange={changeHandler}
-              placeholder="Search For Movie.."
+              placeholder="Search For Movie.." 
             />
           </div>
 

@@ -40,6 +40,7 @@ const MovieDetails = () => {
             />
           </div>
         </div>
+
         <div className="movie__detailRight">
           <div className="movie__detailRightTop">
             <div className="movie__name">
@@ -83,6 +84,9 @@ const MovieDetails = () => {
           </div>
         </div>
       </div>
+
+
+
       <div className="movie__links">
         <div className="movie__heading">Useful Links</div>
         
@@ -90,10 +94,10 @@ const MovieDetails = () => {
             <Link to={"https://www.imdb.com/title/" + currentMovieDetail.imdb_id}>
 
           
-            <p>
-              <span className="movie__imdbButton movie__Button">
-                Trailer<i className="newTab fas fa-external-link-alt"></i>
-              </span>
+            <p className="movie__imdbButton movie__Button">
+              
+                Trailer 
+              
             </p>
         
             </Link>

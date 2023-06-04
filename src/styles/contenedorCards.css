@@ -4,4 +4,6 @@
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: rgb(16, 7, 28);
+    padding: 0% 3%;
 }

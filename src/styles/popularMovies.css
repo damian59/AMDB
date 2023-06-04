@@ -1,5 +1,6 @@
-posterImage{
-  height: 200px;
+.poster{
+  position: relative;
+  z-index: 1;
 }
 
 .posterImage > img {
